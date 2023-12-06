@@ -11,7 +11,40 @@ li {
   list-style-type: none;
 }
 
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Header */
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-item {
+  margin-right: 40px;
+}
+
+.header-item-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -37,6 +70,8 @@ li {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   text-decoration: none;
+  display: inline-block;
+  margin-right: 0;
 }
 
 .contacts:hover,
