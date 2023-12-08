@@ -43,12 +43,15 @@ header {
 }
 
 .header-item {
+  display: inline-block;
 }
 
 .header-item-list {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header-container {
@@ -111,6 +114,8 @@ header {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .address-link:hover,
