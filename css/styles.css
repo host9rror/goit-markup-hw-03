@@ -72,11 +72,12 @@ header {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .studio-span {
   color: #2e2f42;
-  margin-right: 76px;
+  padding: 24px 0;
 }
 
 .contacts {
