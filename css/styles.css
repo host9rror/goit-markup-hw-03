@@ -76,6 +76,8 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .studio-span {
