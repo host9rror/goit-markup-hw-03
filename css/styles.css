@@ -43,12 +43,12 @@ header {
 }
 
 .header-item {
-  margin-right: 40px;
 }
 
 .header-item-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header-container {
@@ -76,6 +76,7 @@ header {
 
 .studio-span {
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .contacts {
@@ -125,6 +126,8 @@ header {
   background-color: #2e2f42;
   width: 100%;
   height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .title-text {
@@ -136,6 +139,7 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .button {
@@ -154,6 +158,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -216,7 +221,7 @@ header {
 
 .advantages-item-container {
   display: inline-block;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
@@ -266,6 +271,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   border-radius: 0px 0px 4px 4px;
+  display: block;
 }
 
 .our-workers {
@@ -340,6 +346,7 @@ header {
   align-items: flex-start;
   gap: 32px;
   flex-shrink: 0;
+  display: block;
 }
 
 .app-title {
@@ -375,7 +382,11 @@ header {
   padding-bottom: 100px;
 }
 
-.logo {
+.footer-container {
+  padding-top: 100px;
+}
+
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
